@@ -34,7 +34,7 @@ NSString* pluralSuffix(int);
     } else {
         int difference = round(interval / 60 / 60 / 24 / 31);
         NSString * plural = pluralSuffix(difference);
-        return [NSString stringWithFormat:@"%d mont%@ ago", difference, plural];
+        return [NSString stringWithFormat:@"%d month%@ ago", difference, plural];
     }
 }
 
